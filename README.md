@@ -21,32 +21,22 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+# Threddit 
 
+A modern social platform where users can explore, engage, and interact within various threads, post their thoughts, join discussions, and much more. With a sleek and responsive design, Threddit offers a dynamic space for users to connect and share ideas.
 
+## ✨ Features
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+- **Explore Threads**: Discover a variety of threads on different topics. Join and leave threads based on your interests.
+- **Create & Share Posts**: Express yourself by creating posts in your favorite threads.
+- **Engage with Comments**: Add your voice by commenting on posts. Keep conversations flowing with our intuitive nested comments system.
+- **Upvote & Downvote**: Show your approval or disagreement by liking or disliking posts and comments. Each user can cast their vote just once to keep things fair.
+- **User Authentication**: Secure signup, login, and logout features ensure your data remains safe.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+## 🚀 Built With
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-This project is a chat application built with React for the frontend, MongoDB and Express.js for the backend. It utilizes Modular CSS for styling.
+This project is a chat application built with React with TypeScript for the frontend, MongoDB (Mongoose for schema management) and Express.js for the backend. It utilizes Modular CSS for styling.
+Authentication is built with JWT (JSON Web Token) and cookies for secure authentication.
 
 * [![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white)](https://reactjs.org/)
 * [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -55,15 +45,7 @@ This project is a chat application built with React for the frontend, MongoDB an
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-1. **Clone the Repository:** Start by cloning the project repository to your local machine.
-2. **Install Dependencies:** Navigate to the project directory and install frontend and backend dependencies.
-3. **Configure Environment Variables:** Set up environment variables for MongoDB URI and LangChain API key.
-4. **Start the Servers:** Launch the frontend and backend servers to run the application locally.
-5. **Access the Application:** Open your web browser and navigate to http://localhost:5173 to access the chat application.
+## 🌱 Getting Started
 
 ### Prerequisites
 
@@ -115,10 +97,6 @@ _Below is an example of how you can run a local version of this app on your mach
 
 
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
