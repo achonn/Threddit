@@ -41,10 +41,14 @@ Features:
 This project is a chat application built with React with TypeScript for the frontend, MongoDB (Mongoose for schema management) and Express.js for the backend. It utilizes Modular CSS for styling.
 Authentication is built with JWT (JSON Web Token) and cookies for secure authentication.
 
-* [![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white)](https://reactjs.org/)
-* [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-* [![Express](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com/)
-* [![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=flat&logo=mongoose&logoColor=white)](https://mongoosejs.com/)
+- ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+- ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+- ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+- ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+- ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+- ![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
+- ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,10 +64,10 @@ Authentication is built with JWT (JSON Web Token) and cookies for secure authent
 
 _Below is an example of how you can run a local version of this app on your machine_
 
-1. Get an **OPEN_AI_API Key** at <code>[https://openai.com/gpt-4]((https://openai.com/gpt-4))</code>
+1. Generate an **ACCESS_TOKEN** at <code>[https://www.random.org/strings/]((https://www.random.org/strings/))</code>
 2. Clone the repo
    ```sh
-   git clone https://github.com/roychon/virtual.ai
+   git clone https://github.com/roychon/Threddit.git
    ```
 3. Install NPM packages
    ```sh
@@ -72,7 +76,7 @@ _Below is an example of how you can run a local version of this app on your mach
 4. Create your <code>.env</code> file
 5. Enter your API in `.env` file
    ```sh
-   OPENAI_API_KEY = 'ENTER YOUR API';
+   ACCESS_TOKEN = 'ENTER YOUR ACCESS_TOKEN';
    ```
 6. Enter your mongodb url in `.env` file
    ```sh
@@ -80,9 +84,8 @@ _Below is an example of how you can run a local version of this app on your mach
    ```
 7. Set Cookie details
    ```sh
-   COOKIE_SECRET = 'ENTER YOUR COOKIE SECRET'
-   COOKIE_NAME = 'ENTER YOUR COOKIE NAME'
-   COOKIE_EXPIRY = 'ENTER YOUR COOKIE EXPIRY DATE'
+   CORS_ORIGIN = http://localhost:5173
+   PORT = 'ENTER YOUR PORT NUMBER'
    ```
 8. Start frontend server
    ```sh
@@ -91,7 +94,7 @@ _Below is an example of how you can run a local version of this app on your mach
    ```
 9. Start backend server
     ```sh
-    cd backend
+    cd backend/src
     npm run dev
     ```
 10. Once the servers are running, open your web browser and navigate to <code>http://localhost:5173</code> to access the chat application.
