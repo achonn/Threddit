@@ -1,3 +1,5 @@
+<a id="readme-top"></a>
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -16,13 +18,11 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
 
 
@@ -59,42 +59,67 @@ This project is a chat application built with React for the frontend, MongoDB an
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+1. **Clone the Repository:** Start by cloning the project repository to your local machine.
+2. **Install Dependencies:** Navigate to the project directory and install frontend and backend dependencies.
+3. **Configure Environment Variables:** Set up environment variables for MongoDB URI and LangChain API key.
+4. **Start the Servers:** Launch the frontend and backend servers to run the application locally.
+5. **Access the Application:** Open your web browser and navigate to http://localhost:5173 to access the chat application.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
   ```
-
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is an example of how you can run a local version of this app on your machine_
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get an **OPEN_AI_API Key** at <code>[https://openai.com/gpt-4]((https://openai.com/gpt-4))</code>
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/roychon/virtual.ai
    ```
 3. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
+4. Create your <code>.env</code> file
+5. Enter your API in `.env` file
    ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
+   OPENAI_API_KEY = 'ENTER YOUR API';
    ```
+6. Enter your mongodb url in `.env` file
+   ```sh
+   MONGODB_URL = 'ENTER YOUR MONGODB URL`
+   ```
+7. Set Cookie details
+   ```sh
+   COOKIE_SECRET = 'ENTER YOUR COOKIE SECRET'
+   COOKIE_NAME = 'ENTER YOUR COOKIE NAME'
+   COOKIE_EXPIRY = 'ENTER YOUR COOKIE EXPIRY DATE'
+   ```
+8. Start frontend server
+   ```sh
+   cd frontend/src
+   npm run dev
+   ```
+9. Start backend server
+    ```sh
+    cd backend
+    npm run dev
+    ```
+10. Once the servers are running, open your web browser and navigate to <code>http://localhost:5173</code> to access the chat application.
+
+
+
+
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-or-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
-# Threddit
+
