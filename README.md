@@ -1,6 +1,5 @@
 <a id="readme-top"></a>
-
-<!-- TABLE OF CONTENTS -->
+<!--TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -24,6 +23,8 @@
 # Threddit 
 
 A modern social platform. 
+
+![homepage](https://github.com/user-attachments/assets/66964596-24b1-4e35-97a7-fb48127342f9)
 
 
 This is a web application where users can explore, engage, and interact within various threads, post their thoughts, join discussions, and much more. With a sleek and responsive design, Threddit offers a dynamic space for users to connect and share ideas.
@@ -104,7 +105,32 @@ _Below is an example of how you can run a local version of this app on your mach
 
 
 ## Usage
+_Below are some screenshots of threddit in the browser_
+<div>
+  Login Page<br>
+  <img src="https://github.com/user-attachments/assets/60ffd04e-f940-4db2-afd4-b031abf7b5fb" width="600">
+</div>
+<br>
+
+<div>
+  Comments of Post<br>
+  <img src="https://github.com/user-attachments/assets/a551a369-c657-4c33-b353-a40f0656c873" width="600">
+</div>
+<br>
+
+<div>
+  Thread Page<br>
+  <img src="https://github.com/user-attachments/assets/f3531156-6e48-4164-a86d-053d611b190e" width="600">
+</div>
+<br>
+
+<div>
+  Settings (Change Username) <br>
+  <img src="https://github.com/user-attachments/assets/2e168dce-122e-4447-95a9-8a76bdb7c800" width="600">
+</div>
+<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
