@@ -68,7 +68,7 @@ _Below is an example of how you can run a local version of this app on your mach
 1. Generate an **ACCESS_TOKEN** at <code>[https://www.random.org/strings/]((https://www.random.org/strings/))</code>
 2. Clone the repo
    ```sh
-   git clone https://github.com/roychon/Threddit.git
+   git clone https://github.com/achonn/Threddit.git
    ```
 3. Install NPM packages
    ```sh
