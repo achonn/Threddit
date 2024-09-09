@@ -23,9 +23,12 @@
 
 # Threddit 
 
-A modern social platform where users can explore, engage, and interact within various threads, post their thoughts, join discussions, and much more. With a sleek and responsive design, Threddit offers a dynamic space for users to connect and share ideas.
+A modern social platform. 
 
-## ✨ Features
+
+This is a web application where users can explore, engage, and interact within various threads, post their thoughts, join discussions, and much more. With a sleek and responsive design, Threddit offers a dynamic space for users to connect and share ideas.
+
+Features:
 
 - **Explore Threads**: Discover a variety of threads on different topics. Join and leave threads based on your interests.
 - **Create & Share Posts**: Express yourself by creating posts in your favorite threads.
@@ -33,7 +36,7 @@ A modern social platform where users can explore, engage, and interact within va
 - **Upvote & Downvote**: Show your approval or disagreement by liking or disliking posts and comments. Each user can cast their vote just once to keep things fair.
 - **User Authentication**: Secure signup, login, and logout features ensure your data remains safe.
 
-## 🚀 Built With
+## Technologies Used
 
 This project is a chat application built with React with TypeScript for the frontend, MongoDB (Mongoose for schema management) and Express.js for the backend. It utilizes Modular CSS for styling.
 Authentication is built with JWT (JSON Web Token) and cookies for secure authentication.
@@ -45,7 +48,7 @@ Authentication is built with JWT (JSON Web Token) and cookies for secure authent
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🌱 Getting Started
+## Getting Started
 
 ### Prerequisites
 
