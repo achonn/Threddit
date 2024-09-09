@@ -46,7 +46,7 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This project is a chat application built with React for the frontend, MongoDB and Express.js for the backend, and LangChain for AI-powered responses. It utilizes Tailwind CSS for styling.
+This project is a chat application built with React for the frontend, MongoDB and Express.js for the backend. It utilizes Modular CSS for styling.
 
 * [![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white)](https://reactjs.org/)
 * [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
