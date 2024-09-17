@@ -40,7 +40,7 @@ Features:
 ## Technologies Used
 
 This project is a chat application built with React with TypeScript for the frontend, MongoDB (Mongoose for schema management) and Express.js for the backend. It utilizes Modular CSS for styling.
-Authentication is built with JWT (JSON Web Token) and cookies for secure authentication.
+Authentication is built with JWT (JSON Web Token) and cookies for secure authentication and Figma for UI/UX.
 
 - ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 - ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -49,6 +49,8 @@ Authentication is built with JWT (JSON Web Token) and cookies for secure authent
 - ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 - ![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
 - ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+- ![Figma](https://img.shields.io/badge/Figma-0ACF83?style=for-the-badge&logo=figma&logoColor=white)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
