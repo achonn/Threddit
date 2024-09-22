@@ -107,7 +107,7 @@ _Below are some screenshots of threddit in the browser_
 <br>
 
 <div>
-  Settings (Change Username) <br>
+  Settings (Changing Username) <br>
   <img src="https://github.com/user-attachments/assets/2e168dce-122e-4447-95a9-8a76bdb7c800" width="600">
 </div>
 <br>
